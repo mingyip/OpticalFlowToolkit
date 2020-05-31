@@ -52,9 +52,9 @@ for c in range(17):
         value.append(contrast[b * 17 + c])
     plt.plot(x, y, label='haze = ' + str(value[c * (195/5+1)]))
 
-print x
-print y
-print value
+print(x)
+print(y)
+print(value)
 plt.xticks(xt)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=-2)
 
@@ -74,9 +74,9 @@ for c in range(17):
         value.append(contrast[b * 17 + c])
     plt.plot(x, y, label='haze = ' + str(value[c * (195/5+1)]))
 
-print x
-print y
-print value
+print(x)
+print(y)
+print(value)
 plt.xticks(xt)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=-2)
 
@@ -96,9 +96,9 @@ for b in range(beta_range_min, beta_range_max, 5):
         value.append(beta[b/5 * contrast_number + c])
     plt.plot(x, y, label='beta = ' + str(value[b/5 * contrast_number]))
 
-print x
-print y
-print value
+print(x)
+print(y)
+print(value)
 plt.xticks(xt)
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=-2)
 

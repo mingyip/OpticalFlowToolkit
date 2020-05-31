@@ -84,11 +84,11 @@ def disp_results(fig, ax1, ax2, loss_iterations, losses, accuracy_iterations, ac
         maxIter =   accuracy_iterations[-1]
         consoleInfo = format('\n[%s]:maximum accuracy [from 0 to %s ] = [Iteration %s]: %s ' %(fileName,maxIter,maxAccIter ,maxAcc))
         plotTitle = format('max accuracy(%s) [Iteration %s]: %s ' % (fileName,maxAccIter, maxAcc))
-        print (consoleInfo)
+        print(consoleInfo)
         #print (str(result))
         #print(acrIterations)
        # print 'Top 4 accuracies:'
-        print ('Top 4 accuracies:'+str(sorted_top4))
+        print('Top 4 accuracies:'+str(sorted_top4))
         plt.title(plotTitle)
     ax1.plot(loss_iterations, losses, color=plt.rcParams['axes.color_cycle'][(color_ind * 2 + 0) % modula])
     ax2.plot(accuracy_iterations, accuracies, plt.rcParams['axes.color_cycle'][(color_ind * 2 + 1) % modula], label=str(fileName))

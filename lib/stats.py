@@ -28,4 +28,4 @@ for j in range(22276):
 
 for i in range(len(stats)):
     stats[i] /= 22276
-    print stats[i]
+    print(stats[i])

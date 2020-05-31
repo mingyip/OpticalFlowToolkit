@@ -49,13 +49,13 @@ if params1 == params2 == params3:
     canvas_width = int(words[1])
     maximum_length = int(words[2])
 else:
-    print 'input files do not match!'
+    print('input files do not match!')
     raise
 
 if args.length <= maximum_length:
     length = args.length
 else:
-    print "exceed size of the dataset!"
+    print("exceed size of the dataset!")
     raise
 
 # Prepare Output

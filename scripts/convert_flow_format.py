@@ -12,7 +12,7 @@ lines = f.readlines()
 i = 0
 
 for line in lines:
-    print i
+    print(i)
     fl.pfm_to_flo(line.strip())
     i += 1
 
@@ -23,7 +23,7 @@ lines = f.readlines()
 i = 0
 
 for line in lines:
-    print i
+    print(i)
     fl.pfm_to_flo(line.strip())
     i += 1
 

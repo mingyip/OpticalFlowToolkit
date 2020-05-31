@@ -586,7 +586,8 @@ def read_pfm_file(flow_file):
     :param flow_file: name of the flow file
     :return: optical flow data in matrix
     """
-    import pfm
+    import lib.pfm as pfm
+    print(flow_file)
     (data, scale) = pfm.readPFM(flow_file)
     return data 
 
